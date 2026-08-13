@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jay Bhawani Tailors & Clothes</title>
+  <meta name="description" content="Jay Bhawani Tailors & Clothes — ethnic, stylish men's wear and expert tailoring.">
+  <style>
+    :root{
+      --ink:#201914;
+      --cream:#f7f1e7;
+      --gold:#b7893f;
+      --dark:#17120f;
+      --muted:#6e6258;
+      --white:#fffdf9;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .topbar{background:var(--dark);color:#fff;padding:10px 5%;text-align:right;font-size:14px}
+    .topbar a{color:#f4d99f;font-weight:700}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:20px 5%;background:var(--white);position:sticky;top:0;z-index:10;box-shadow:0 2px 14px #00000010}
+    .logo{font-family:Georgia,serif;font-size:24px;font-weight:700}
+    .logo span{display:block;font-family:Arial,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
+    .navlinks{display:flex;gap:26px;font-weight:600}
+    .navlinks a:hover{color:var(--gold)}
+    .hero{min-height:78vh;display:grid;place-items:center;text-align:center;padding:80px 6%;background:
+      linear-gradient(#17120fc7,#17120fc7),
+      radial-gradient(circle at 50% 25%,#9f7139 0,#39281d 38%,#17120f 75%);}
+    .hero-inner{max-width:850px;color:#fff}
+    .eyebrow{color:#e1bc70;letter-spacing:4px;text-transform:uppercase;font-size:13px;font-weight:700}
+    h1{font-family:Georgia,serif;font-size:clamp(44px,8vw,82px);line-height:1.03;margin:18px 0}
+    .hero p{font-size:20px;color:#eee2d3;max-width:680px;margin:0 auto 32px}
+    .btn{display:inline-block;padding:15px 26px;border-radius:5px;font-weight:700;margin:6px}
+    .btn-gold{background:var(--gold);color:#fff}
+    .btn-light{border:1px solid #fff;color:#fff}
+    section{padding:75px 6%}
+    .section-head{text-align:center;max-width:700px;margin:0 auto 45px}
+    .section-head h2{font-family:Georgia,serif;font-size:40px;margin:8px 0}
+    .section-head p{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1100px;margin:auto}
+    .card{background:var(--white);padding:32px;border:1px solid #e7dccd;border-radius:10px;text-align:center}
+    .icon{font-size:38px}
+    .card h3{font-family:Georgia,serif;font-size:25px}
+    .card p{color:var(--muted)}
+    .highlight{background:var(--dark);color:#fff}
+    .highlight .section-head p{color:#d8cabc}
+    .styles{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1100px;margin:auto}
+    .style{min-height:190px;padding:24px;display:flex;align-items:end;border-radius:10px;overflow:hidden;background:linear-gradient(145deg,#6b4b2c,#201710);position:relative}
+    .style:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent,#000000aa)}
+    .style div{position:relative;z-index:1}
+    .style h3{margin:0;font-family:Georgia,serif;font-size:23px}
+    .style p{margin:4px 0 0;color:#eadccf;font-size:14px}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:35px;max-width:1000px;margin:auto}
+    .contact-box{background:var(--white);padding:35px;border-radius:10px;border:1px solid #e7dccd}
+    .contact-box h3{font-family:Georgia,serif;font-size:28px;margin-top:0}
+    .contact-line{padding:15px 0;border-bottom:1px solid #eadfd2}
+    .contact-line:last-child{border:0}
+    .contact-line strong{display:block}
+    footer{background:#0e0b09;color:#cfc3b7;padding:25px 6%;text-align:center;font-size:14px}
+    @media(max-width:800px){
+      .navlinks{display:none}
+      .cards,.styles,.contact{grid-template-columns:1fr}
+      .hero{min-height:70vh}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Call us: <a href="tel:9328159748">93281 59748</a></div>
+
+  <nav>
+    <div class="logo">Jay Bhawani Tailors & Clothes<span>Ethnic • Stylish • Tailored</span></div>
+    <div class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#styles">Men's Wear</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Tailored with pride</div>
+      <h1>Style That Fits You.</h1>
+      <p>Expert tailoring and stylish ethnic men's wear, made for the perfect fit, the perfect occasion, and your personal style.</p>
+      <a class="btn btn-gold" href="tel:9328159748">Call Now</a>
+      <a class="btn btn-light" href="#contact">Visit Our Shop</a>
+    </div>
+  </header>
+
+  <section id="services">
+    <div class="section-head">
+      <div class="eyebrow">What we do</div>
+      <h2>Made to Measure. Made to Impress.</h2>
+      <p>From everyday elegance to festive occasions, we bring careful stitching and classic style together.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">✂️</div><h3>Expert Tailoring</h3><p>Neat, comfortable stitching tailored to your measurements and preferred style.</p></div>
+      <div class="card"><div class="icon">👔</div><h3>Men's Wear</h3><p>Stylish ethnic and traditional men's outfits for celebrations, functions, and special days.</p></div>
+      <div class="card"><div class="icon">✨</div><h3>Custom Style</h3><p>Choose your fabric, fit, details, and finishing for a look that feels uniquely yours.</p></div>
+    </div>
+  </section>
+
+  <section class="highlight" id="styles">
+    <div class="section-head">
+      <div class="eyebrow">Men's collection</div>
+      <h2>Ethnic & Stylish</h2>
+      <p>Classic Indian-inspired looks with a polished, modern fit.</p>
+    </div>
+    <div class="styles">
+      <div class="style"><div><h3>Kurta</h3><p>Elegant everyday & festive styles</p></div></div>
+      <div class="style"><div><h3>Jodhpuri</h3><p>Sharp traditional sophistication</p></div></div>
+      <div class="style"><div><h3>Wedding Wear</h3><p>Dress for your memorable occasions</p></div></div>
+      <div class="style"><div><h3>Custom Fits</h3><p>Your measurements, your style</p></div></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-head">
+      <div class="eyebrow">Come visit us</div>
+      <h2>Jay Bhawani Tailors & Clothes</h2>
+      <p>For stitching, fittings, and men's ethnic wear, get in touch with us today.</p>
+    </div>
+    <div class="contact">
+      <div class="contact-box">
+        <h3>Shop Details</h3>
+        <div class="contact-line"><strong>📍 Address</strong>Ganesh Complex, near Indian Petrol Pump</div>
+        <div class="contact-line"><strong>📞 Mobile</strong><a href="tel:9328159748">93281 59748</a></div>
+      </div>
+      <div class="contact-box">
+        <h3>Ready to look your best?</h3>
+        <p>Call us to discuss your tailoring needs or visit the shop for a fitting.</p>
+        <a class="btn btn-gold" href="tel:9328159748">Call 93281 59748</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2026 Jay Bhawani Tailors & Clothes. All rights reserved.</footer>
+</body>
+</html>
